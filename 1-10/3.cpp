@@ -1,4 +1,4 @@
-	string serialize(TreeNode* root) {  //serialize the root
+    string serialize(TreeNode* root) {  //serialize the root
         if(root == NULL){
             return ".";   //a '.' character represents a null node
         }
